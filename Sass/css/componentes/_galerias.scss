@@ -2,17 +2,18 @@
     width: 50%;
     height: 250px;
     margin: 10px auto;
-    padding: 20px 0 0 30px;
+    padding: 20px;
     justify-content: space-evenly;
     @include caja;
     &__foto-principal {
+        height: 150px;
         float: left;
-        margin-left: 10px;
     }
     &__fotos-adicionales img {
-        height: 70px;
-        margin-right: 5px;
-        margin-bottom: 5px;
+        
+        height: 75px;
+
+        margin-left: 10px;
     }
     h2 {
         margin-bottom: 10px;
